@@ -3,7 +3,7 @@
 const shell = require("shelljs");
 const inquirer = require("inquirer");
 
-const targetRepo = "https://github.com/anungbisa4/create-next-moose.git";
+const targetRepo = "https://github.com/LyridInc/next-lyrid.git";
 
 //Check if git is enable
 if (!shell.which("git")) {
